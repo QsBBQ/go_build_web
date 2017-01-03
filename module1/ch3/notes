@@ -1,0 +1,16 @@
+https://github.com/golang/go/wiki/SQLDrivers
+
+
+https://github.com/go-sql-driver/mysql/
+https://github.com/lib/pq
+
+
+INSERT INTO pages (page_title, page_content, page_date) VALUES
+('Hello, World!', 'I''m so glad you found this page! It''s been sitting patiently on the internet for some time, just waiting for a visitor.', CURRENT_TIMESTAMP);
+
+INSERT INTO pages (page_title, page_content, page_date, page_guid) VALUES
+('Hello, World!', 'I''m so glad you found this page! It''s been sitting
+patiently on the internet for some time, just waiting for a visitor.', CURRENT_TIMESTAMP, 'hello-world');
+
+INSERT INTO pages (page_title, page_content, page_date, page_guid) VALUES
+('A New Blog', 'I hope you enjoyed the last blog! Well brace yourself, because', CURRENT_TIMESTAMP, 'a-new-blog');
